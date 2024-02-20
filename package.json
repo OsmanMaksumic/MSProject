@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@cypress-audit/lighthouse": "^1.4.2",
+    "@cypress-audit/pa11y": "^1.4.2",
+    "@lhci/cli": "^0.12.0",
+    "cypress": "^13.3.3",
+    "cypress-audit": "^1.1.0",
+    "cypress-mochawesome-reporter": "^3.6.1",
+    "cypress-tags": "^1.1.2",
+    "electron": "^27.0.2",
+    "lighthouse": "^11.2.0"
+  },
+  "scripts": {
+    "smoke_headless": "cypress run --browser chrome --spec='cypress/e2e/*'",
+    "smoke_headed": "cypress run --headed --browser chrome --spec='cypress/e2e/*'"
+
+  }
+}

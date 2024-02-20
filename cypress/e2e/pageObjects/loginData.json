@@ -1,0 +1,17 @@
+{
+  "username": "standard_user",
+  "password": "secret_sauce",
+
+  
+
+  "first_name": "Automation",
+  "last_name": "Test",
+  "zip": "88000",
+
+
+  "twitter_link": "https://twitter.com/saucelabs",
+  "facebook_link": "https://www.facebook.com/saucelabs",
+  "linkedin_link": "https://www.linkedin.com/company/sauce-labs/",
+
+  "twitter": ".social_twitter"
+}
